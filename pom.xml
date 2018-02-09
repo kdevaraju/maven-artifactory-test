@@ -4,6 +4,7 @@
   <artifactId>maven-artifactory-test</artifactId>
   <version>1.0</version>
   <packaging>jar</packaging>
+  <distributionManagement>
   <repositories>
   <repository>
      <id>Interstellar Artifactory</id>
@@ -11,4 +12,5 @@
      <url>http://10.85.59.221:80/artifactory/maven-test-repo</url>
   </repository>
 </repositories>
+    </distributionManagement>
 </project>
